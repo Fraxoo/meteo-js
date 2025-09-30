@@ -124,8 +124,12 @@ async function main() {
         }
 
         if (is_day === 1) {
+            body.classList.remove("night");
+
             body.classList.add("day");
         } else {
+            body.classList.remove("day");
+
             body.classList.add("night");
         }
     }
