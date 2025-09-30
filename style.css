@@ -5,14 +5,14 @@
 
 
 body {
-    height: 100vh;
+    height: 100%;
 
 }
 
 .day {
     background: #204399;
     background: linear-gradient(145deg, rgba(32, 67, 153, 1) 0%, rgba(42, 169, 161, 1) 100%);
-    
+
 }
 
 .night {
@@ -20,7 +20,95 @@ body {
     background: linear-gradient(145deg, rgba(24, 26, 31, 1) 0%, rgba(0, 135, 126, 1) 100%);
 }
 
-.bright{
+.bright {
     color: white;
 }
 
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem 1rem;
+    gap: 1rem;
+    flex: 1;
+    width: 100%;
+    align-items: center;
+}
+
+.form button{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+
+#town-form{
+    display: flex;
+    gap: 1rem;
+}
+
+#town-form input {
+    background-color: white;
+    padding: 0.5rem 0.5rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+}
+
+#position-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+}
+
+
+
+#position-form div input{
+    text-align: c;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 0.5rem 0.5rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+}
+
+.meteo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    flex: 2;
+    width: 100%;
+}
+
+.meteo i{
+    font-size: 10rem;
+}
+
+.mylocation{
+    flex: 1;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.mylocation button{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
