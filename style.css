@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    height: 100vh;
+
+}
+
+.day {
+    background: #204399;
+    background: linear-gradient(145deg, rgba(32, 67, 153, 1) 0%, rgba(42, 169, 161, 1) 100%);
+    
+}
+
+.night {
+    background: #181a1f;
+    background: linear-gradient(145deg, rgba(24, 26, 31, 1) 0%, rgba(0, 135, 126, 1) 100%);
+}
+
+.bright{
+    color: white;
+}
+
